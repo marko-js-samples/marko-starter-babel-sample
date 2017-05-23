@@ -1,0 +1,25 @@
+{
+  "name": "marko-starter-babel-example",
+  "version": "1.0.0",
+  "description": "Demo of how to build an app using marko-starter and Babel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marko-js-samples/marko-starter-babel-example"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.13.0",
+    "eslint-config-marko": "^1.0.1"
+  },
+  "dependencies": {
+    "marko": "^4.2.4",
+    "marko-starter": "^1.0.0",
+    "marko-starter-babel": "^1.0.1"
+  },
+  "scripts": {
+    "start": "marko-starter server",
+    "build": "marko-starter build"
+  },
+  "private": true
+}
